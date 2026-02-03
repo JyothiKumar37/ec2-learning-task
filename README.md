@@ -79,6 +79,8 @@ In this approach, EC2 infrastructure was provisioned using Terraform.
 Terraform enables defining infrastructure as code, making it automated, reusable, and version-controlled.
 
  Terraform Directory Structure
+
+ 
 terraform-ec2/
 ├── provider.tf
 ├── variables.tf
@@ -86,6 +88,8 @@ terraform-ec2/
 ├── security_group.tf
 ├── outputs.tf
 └── terraform.tfvars
+
+
 
  Purpose of Each File
 
@@ -127,13 +131,7 @@ Reduced manual errors
 
 Easy infrastructure cleanup
 
-Manual vs Terraform Comparison
-Feature	Manual (Console)	Terraform (IaC)
-Automation	❌ No	✅ Yes
-Reusability	❌ No	✅ Yes
-Version Control	❌ No	✅ Yes
-Scalability	❌ Low	✅ High
-Production Ready	❌ No	✅ Yes
+
 
 
 Key Takeaways
@@ -148,7 +146,7 @@ Infrastructure as Code ensures consistency and scalability
 
 GitHub helps track and manage infrastructure changes
 
-Conclusion
+Conclusion:
 
 This project provided hands-on experience with both manual EC2 provisioning and automated provisioning using Terraform.
 While manual setup is suitable for learning, Terraform is the preferred approach in production environments due to automation, consistency, and maintainability.
